@@ -56,6 +56,7 @@ def UpdateUser(id):
         'name': request.json['name'],
         'email': request.json['email'],
         'password': request.json['password']
+        # Ejemplo
     }}) 
     return jsonify({ 'msg': 'User was Updated' })
 
